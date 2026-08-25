@@ -93,3 +93,38 @@ console.log(empData["name"]);
 
 console.log(empData.address.city);
 console.log(empData["address"]["city"]);
+
+//Array => Array is a data type that can store a list of values. 
+
+//Before Array
+let fruit1 = "Apple";
+let fruit2 = "Banana";
+let fruit3 = "Mango";
+let fruit4 = "Grapes";
+
+//After Array
+let fruits = ["Apple","Banana","Mango","Grapes"];
+let prices = [200, 80 , 100 , 160];
+let fruitsAndPrices = ["Apple", 200, "Banana", 80, "Mango", 100, "Grapes", 160];
+let fruitsArray= [["Apple", 200], ["Banana", 80], ["Mango", 100], ["Grapes", 160]]; //2D Array (Multiple arrays inside another array )
+
+let fruitsObjects = [
+    {"name": "Apple", "price": 200}, //0
+    {"name": "Banana", "price": 80}, //1
+    {"name": "Mango", "price": 100}, //2
+    {"name": "Grapes", "price": 160} //3
+];
+
+console.log(fruitsObjects[3]);
+
+console.log(fruits);
+console.log(fruits[5]);
+
+console.log(fruitsAndPrices[2]); //Banana
+console.log(fruitsAndPrices[3]); //80
+
+console.log(fruitsArray[0][0]); // Within the first array, first value  => Apple
+console.log(fruitsArray[0][1]); // Within the first array, second value => 200
+
+
+//function => Function is nothing but a block of code or a collection of statements written together to complete a specific task. 
