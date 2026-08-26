@@ -127,4 +127,82 @@ console.log(fruitsArray[0][0]); // Within the first array, first value  => Apple
 console.log(fruitsArray[0][1]); // Within the first array, second value => 200
 
 
-//function => Function is nothing but a block of code or a collection of statements written together to complete a specific task. 
+//function => Function is nothing but a block of code or a collection of statements written together to complete a specific task.
+
+//Function with parameters (The function having some dynamic data or code written inside )
+function login(browserName, username, password) {
+    console.log(`Launch the ${browserName} Browser`);
+    console.log("Enter the URL: https://www.icici.com/");
+    console.log(`Enter the username as '${username}' and password as '${password}'`);
+    console.log("Click on the login button");
+}
+
+//Function without parameters (The function having some static data or code written inside )
+function logoutAndCloseBrowser() {
+    console.log("Logout from the application");
+    console.log("Close the browser");
+}
+
+//Function with return type 
+function getAccountBalance() {
+    console.log("Navigate to the account balance page");
+    let accountBalance = 100000; //local variable
+    return accountBalance; //It will copy the local variable value and store it inside the function name. 
+}
+
+//Below 3 data types from ES6 are also non-primitive data types.
+
+//Set => Set is a collection of unique values. 
+//Map => Map is a collection of key-value pairs.
+//Date => Date is a data type that can store the date and time values.
+
+//Set => Set is a collection of unique values. 
+let empIds = new Set();
+empIds.add(1234);
+empIds.add(1235);
+empIds.add(1236);
+empIds.add(1234); //Duplicate value will not be added to the set.
+console.log(empIds);
+
+//Map => Map is a collection of key-value pairs.
+// Map won't allow duplicate keys, but it will allow duplicate values. 
+let empDetails = new Map();
+empDetails.set("name", "Bharath");
+empDetails.set("id", 1234);
+empDetails.set("visaStatus", true);
+empDetails.set("name", "Prakash"); //Duplicate key will not be added to the map. It will update the value of the existing key.
+empDetails.set("pin", 1234); //Duplicate key will not be added to the map. It will update the value of the existing key.
+console.log(empDetails);
+
+//Date => Date is a data type that can store the date and time values.
+let date = new Date();
+console.log(date);
+
+//current date
+let currentDate = date.getDate();
+console.log(currentDate);
+
+//current month
+let currentMonth = date.getMonth() + 1; //Months are zero-based
+console.log(currentMonth);
+
+//current year
+let currentYear = date.getFullYear();
+console.log(currentYear);
+
+//current hours
+let currentHours = date.getHours();
+console.log(currentHours);
+
+//current minutes
+let currentMinutes = date.getMinutes();
+console.log(currentMinutes);
+
+//current seconds
+let currentSeconds = date.getSeconds();
+console.log(currentSeconds);
+
+//current day of the week
+let currentDay = date.getDay(); 
+console.log(currentDay); //0 => Sunday, 1 => Monday, 2 => Tuesday, 3 => Wednesday, 4 => Thursday, 5 => Friday, 6 => Saturday
+
