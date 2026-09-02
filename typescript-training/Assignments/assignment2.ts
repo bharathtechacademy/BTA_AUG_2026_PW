@@ -44,7 +44,7 @@ function evaluateLoan(
     
 }
 
-
+//calling function and providing values for the parameters
 evaluateLoan(
     "John Doe",   // customerName
     720,          // creditScore
