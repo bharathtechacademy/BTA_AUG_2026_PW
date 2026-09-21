@@ -1,9 +1,1 @@
-{"type": "module",
-  "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^7.0.2"
-  },
-  "dependencies": {
-    "tsx": "^4.23.12"
-  }
-}
+{"type":"module","devDependencies":{"@types/node":"^26.6.1","ts-node":"^10.9.2","typescript":"^7.0.2"},"dependencies":{"excel":"^1.0.1","pdf-parse":"^2.4.5","pdf-parse-fork":"^1.2.0","pdf-parse-new":"^2.1.0","tsx":"^4.23.12","xlsx":"^0.18.5"}}
