@@ -94,3 +94,35 @@ FOREIGN KEY => A foreign key constraint is a key that is going to maintain the r
 CHECK => The column having a check constraint is going to verify custom conditions. 
 DEFAULT => The column having a default constraint is always going to insert the default value when the user is not going to update it. 
 
+## Default functions in SQL ?
+
+Default functions are a set of default methods provided by the SQL programming language to manipulate the data that we have stored previously within the database. 
+
+### Aggregate functions 
+Aggregate functions are all about a set of functions designed to perform calculations on a set of rows and return a single result. 
+
+COUNT() => It will return the total number of rows available in the table. 
+SUM() => It will return the sum of all the values available in the specific column. 
+AVG() => It will return the average value available within the specific column. 
+MIN() => It will return the minimum value available in the specific column. 
+MAX() => It will return the maximum value available in the specific column. 
+
+### Numerical function 
+Numerical functions in SQL are all about the functions that we are going to use to perform mathematical operations and manipulations on top of the numeric data. 
+
+ABS() => It will return the absolute value or positive value of the number. => SELECT ABS (-123.99) => 123.99
+CEIL() => It will return the nearest next integer value. => SELECT CEIL(123.11) => 124
+FLOOR() => Will return the nearest previous integer value => SELECT FLOOR (123.99) => 123
+ROUND() => It will return the rounded value of a particular number based on the decimal point specified. => SELECT ROUND(125.995, 2) => 126.00
+POWER() => It will return the power of a specific number. => POWER (2,-2) => 0.25
+SQRT() => It will return the square root of a specific number. => SQRT (121) => 11
+
+### String Functions 
+String functions in SQL are all about a set of default methods that we are going to use to manipulate and transform the text or character data. 
+
+LENGTH() => It will return the total number of characters stored inside the string. 
+UPPER() => It will convert all the characters of the string into uppercase. 
+LOWER() => It will convert all the characters of the string into lowercase. 
+SUBSTRING(COL_NAME START_INDEX TO END_INDEX) => Extract part of the string based on the start and end index specified by the user. 
+TRIM() => It will eliminate leading and trailing spaces from the string. 
+CONCAT() => It will join two or more strings and return a single string. 
