@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Handling new window in Playwright ', async ({ page }) => {
+test('Handling new window in Playwright ', {tag:'@sanity'}, async ({ page }) => {
 
 // 1. Enter URL and Launch the application (https://demoqa.com/browser-windows)
 await page.goto('https://demoqa.com/browser-windows');
