@@ -29,7 +29,7 @@ export class WebCommons {
     }
 
     //Common method to type the text into a text box 
-    async type(locator: string, text: string) {
+    async enterText(locator: string, text: string) {
         const textbox = await this.element(locator);
         await textbox.clear();
         await textbox.fill(text);
