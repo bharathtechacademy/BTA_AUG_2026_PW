@@ -316,3 +316,59 @@ Ex: Maximum response time should be 2 seconds for each and every request up to 1
 
 For each and every invalid request sent by the user, what kind of data or error message can we expect within the response? 
 
+
+## How to perform API testing, and what are all the different tools available in the market? 
+Postman, JMeter, Newman, RestAssured, Playwright, etc 
+
+
+## How to use the Postman tool to validate an API (step by step)
+
+Step 1 : Create a local workspace within the Postman tool. 
+Here, a workspace is all about a template or a folder inside the Postman tool that is going to allow us to store multiple API collections together at one place. 
+
+Step 2: Create a new environment with in the postman tool.
+Environment is all about a template that is going to help us to maintain API configuration-related data. 
+
+- Environment variables => These variables can be accessed across the environment in multiple collections. 
+- Global variables => These variables can be accessed across the Postman tool, irrespective of collections and projects. 
+- Collection variables => These variables can be accessed only within the specific collection where we are adding 
+
+Step 3: Create a new API collection. 
+An API collection is all about a group of API requests together in a single folder. 
+
+Step 4: Add API request details by using an HTTP request template. 
+HTTP request template is all about the template where we are going to update complete details about each and every API request. 
+
+## API testing in GitHub application 
+
+### Scenarios to validate by using API testing ?
+
+1. Create a duplicate repository with valid credentials in the GitHub application. 
+2. Create a new valid repository with valid credentials in the GitHub application. 
+3. Modify the existing repository with valid credentials in the GitHub application. 
+4. Search and get the existing repository details with valid credentials in the GitHub application. 
+5. Delete the existing repository with valid credentials in the GitHub application. 
+
+GitHub Application API documentation : https://docs.github.com/en/rest/repos/repos?apiVersion=2026-03-10
+
+API documentation for each API request for the above scenarios 
+
+1. Create a duplicate repository with valid credentials in the GitHub application. 
+
+https://docs.github.com/en/rest/repos/repos?apiVersion=2026-03-10#create-a-repository-for-the-authenticated-user
+
+2. Create a new valid repository with valid credentials in the GitHub application. 
+
+https://docs.github.com/en/rest/repos/repos?apiVersion=2026-03-10#create-a-repository-for-the-authenticated-user
+
+3. Modify the existing repository with valid credentials in the GitHub application. 
+
+https://docs.github.com/en/rest/repos/repos?apiVersion=2026-03-10#update-a-repository
+
+4. Search and get the existing repository details with valid credentials in the GitHub application. 
+
+https://docs.github.com/en/rest/repos/repos?apiVersion=2026-03-10#get-a-repository
+
+5. Delete the existing repository with valid credentials in the GitHub application. 
+
+https://docs.github.com/en/rest/repos/repos?apiVersion=2026-03-10#delete-a-repository
