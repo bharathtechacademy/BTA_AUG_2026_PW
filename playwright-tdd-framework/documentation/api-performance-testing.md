@@ -104,3 +104,9 @@ Configuration elements are all about a set of templates which we are going to us
 
 ## Samplers in JMETER 
 Sampler is all about a set of templates where we are going to update the request details within the JMETER tool. 
+
+## Assertions 
+Assertions are nothing but the default templates provided to verify or validate the response received from the API request within the JMeter tool, just to make sure whether the user is getting a valid response or not. 
+
+## Listeners in JMETER 
+Listeners are nothing but a set of templates or components in the JMETER tool that will help us to collect the test results and also produce the test result reports to understand the performance of each and every API request. 

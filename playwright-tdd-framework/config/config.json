@@ -11,7 +11,10 @@
         "database": "your_database"
     },
     "api": {
-        "baseUrl": "http://localhost:4000"
+        "baseUrl": "https://api.github.com",
+        "owner": "bharathtechacademy05",
+        "token": "your_token"
+
     },"ai":{
         "baseUrl": "http://localhost:5000"
     }
