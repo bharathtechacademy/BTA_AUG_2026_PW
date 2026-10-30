@@ -1,0 +1,50 @@
+{
+  "HTTP Request (Request to search and get a private repository from GitHub with valid credentials)" : {
+    "transaction" : "HTTP Request (Request to search and get a private repository from GitHub with valid credentials)",
+    "sampleCount" : 400,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 460.1375000000002,
+    "medianResTime" : 443.0,
+    "minResTime" : 353.0,
+    "maxResTime" : 1547.0,
+    "pct1ResTime" : 507.0,
+    "pct2ResTime" : 570.95,
+    "pct3ResTime" : 934.98,
+    "throughput" : 34.35835767050335,
+    "receivedKBytesPerSec" : 271.4221340298059,
+    "sentKBytesPerSec" : 9.797500429479472
+  },
+  "HTTP Request (Request toupdate a private repository from GitHub with valid credentials)" : {
+    "transaction" : "HTTP Request (Request toupdate a private repository from GitHub with valid credentials)",
+    "sampleCount" : 400,
+    "errorCount" : 35,
+    "errorPct" : 8.75,
+    "meanResTime" : 588.5825000000001,
+    "medianResTime" : 547.5,
+    "minResTime" : 241.0,
+    "maxResTime" : 1816.0,
+    "pct1ResTime" : 771.9000000000001,
+    "pct2ResTime" : 801.8499999999999,
+    "pct3ResTime" : 1071.1700000000008,
+    "throughput" : 36.46308113035551,
+    "receivedKBytesPerSec" : 281.3957276948496,
+    "sentKBytesPerSec" : 13.531221513217867
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 800,
+    "errorCount" : 35,
+    "errorPct" : 4.375,
+    "meanResTime" : 524.3599999999998,
+    "medianResTime" : 492.5,
+    "minResTime" : 241.0,
+    "maxResTime" : 1816.0,
+    "pct1ResTime" : 737.9,
+    "pct2ResTime" : 788.9499999999999,
+    "pct3ResTime" : 937.97,
+    "throughput" : 67.30607437321218,
+    "receivedKBytesPerSec" : 525.5601225969629,
+    "sentKBytesPerSec" : 22.084805653710248
+  }
+}

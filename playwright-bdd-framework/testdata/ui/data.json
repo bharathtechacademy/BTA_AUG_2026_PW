@@ -1,0 +1,31 @@
+{
+    "Verify cookies pop-up content": {
+        "content": "We may use cookies and similar technologies to collect information about the ways you interact with and use the website, to support and enhance features and functionality, to monitor performance, to personalize content and experiences, for marketing and analytics, and for other lawful purposes"
+    },
+    "Verify the cookies pop-up is closed": {
+        "button": "allow all"
+    },
+    "Verify login page is displayed": {
+        "button": "allow all"
+    },
+    "Verify Invalid Login": {
+        "button": "allow all",
+        "username": "invalidUser@test.com",
+        "password": "invalidPass"
+    },
+    "Verify Valid Login": {
+        "button": "allow all",
+        "username": "bharattechacademy5@outlook.com",
+        "password": "BharathTechAcademy#1234"
+    },
+    "Verify Forgot Password": {
+        "button": "allow all",
+        "username": "bharattechacademy5@outlook.com",
+        "password": "BharathTechAcademy#1234"
+    },
+    "Verify Social Media Login Options": {
+        "button": "allow all"
+    }
+
+
+}
