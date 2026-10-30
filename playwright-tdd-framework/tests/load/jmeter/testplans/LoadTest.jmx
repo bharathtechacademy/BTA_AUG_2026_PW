@@ -27,7 +27,7 @@
             </elementProp>
             <elementProp name="token" elementType="Argument">
               <stringProp name="Argument.name">token</stringProp>
-              <stringProp name="Argument.value">Bearer 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</stringProp>
+              <stringProp name="Argument.value">your token</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="owner" elementType="Argument">
