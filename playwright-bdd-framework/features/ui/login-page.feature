@@ -17,7 +17,7 @@ Feature: Login feature in Createio CRM application
         Then Cookies pop-up should be closed
         And Login page should be displayed
         When User enters "<username>" and "<password>"
-        And User clicks on the "login" button
+        And User clicks on the login button
         Then Login should be "<result>"
 
         Examples:

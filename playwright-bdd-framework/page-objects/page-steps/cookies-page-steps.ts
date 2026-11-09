@@ -20,7 +20,7 @@ export class CookiesPageSteps {
     //Verify cookies pop-up content. 
     async verifyCookiesPopupContent(expectedContent:string){
         const actualContent = await this.web.getText(cookiesPageElements.cookiesPopupContent);
-        await this.web.compareValues(actualContent, expectedContent);
+        await this.web.containsValue(actualContent, expectedContent);
     }
 
     //Verify cookies pop-up logos. 

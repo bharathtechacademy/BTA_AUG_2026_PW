@@ -31,7 +31,7 @@ export class JMeterCommons {
 
         //Collect and store JMeter folder paths. 
         const projectRoot = process.cwd();//playwright-tdd-framework root folder
-        const jmeterBasePath = `${projectRoot}/tests/load/jmeter`; //JMeter folder path inside the project root
+        const jmeterBasePath = `${projectRoot}/step-definitions/load/jmeter`; //JMeter folder path inside the project root
         const jmeterToolPath = `${jmeterBasePath}/bin/jmeter.bat`; // Path to the JMeter batch file to launch jmeter tool
         const jmeterTestPlanPath = `${jmeterBasePath}/testplans/${testPlanName}`; // Full path to the JMeter test plan
         console.log(`Execution started for Jmeter test plan. ${testPlanName}`);

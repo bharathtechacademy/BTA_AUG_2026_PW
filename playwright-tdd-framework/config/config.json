@@ -16,6 +16,7 @@
         "token": "your_token"
 
     },"ai":{
-        "baseUrl": "http://localhost:5000"
+        "baseUrl": "http://localhost:11434",
+        "endpoint": "/api/generate"
     }
 }

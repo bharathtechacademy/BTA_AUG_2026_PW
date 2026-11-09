@@ -20,7 +20,8 @@ export class APICommons {
 
     //Common method to send the API request and get the response 
     async getResponse(requestType: string, endpoint: string, requestBody?: any) {
-        switch (requestType.toLowerCase()) {
+        requestType = requestType.toLowerCase().trim();
+        switch (requestType) {
             case 'get':
                 this.response = await this.requestContext.get(endpoint);
                 break;

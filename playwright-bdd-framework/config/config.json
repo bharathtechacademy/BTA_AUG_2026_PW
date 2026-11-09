@@ -13,7 +13,7 @@
     "api": {
         "baseUrl": "https://api.github.com",
         "owner": "bharathtechacademy05",
-        "token": "your_token"
+        "token": "Bearer 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"
 
     },"ai":{
         "baseUrl": "http://localhost:5000"

@@ -1,56 +1,22 @@
 {
     "duplicateRepo":{
-        "requestType": "post",
-        "endpoint": "/user/repos",
         "payload": {
-            "name":"PlaywrightRepo",
+            "name":"{repo_name}",
             "description": "Sample Duplicate Repo From Postman",
             "private": false
-            },
-          "expCode":422,
-          "expStatusMessage": "Unprocessable Entity",
-          "expErrorMessage": "Repository creation failed.",
-          "expErrorDataType": "string"
+            }         
     },
     
     "validRepo":{
-        "requestType": "post",
-        "endpoint": "/user/repos",
         "payload": {
-            "name":"NewPlaywrightRepo",
+            "name":"{repo_name}",
             "description": "Sample Duplicate Repo From Postman",
             "private": false
-            },
-          "expCode":201,
-          "expStatusMessage": "Created",
-          "expRepoName": "NewPlaywrightRepo",
-          "expRepoDataType": "string"
+            }
     },
     "updateRepo":{
-        "requestType": "patch",
-        "endpoint": "/repos/bharathtechacademy05/NewPlaywrightRepo",
         "payload": {
-            "private": true
-            },
-          "expCode":200,
-          "expStatusMessage": "OK",
-          "expRepoName": "NewPlaywrightRepo",
-          "expRepoDataType": "string"
-    },
-    "getRepo":{
-        "requestType": "get",
-        "endpoint": "/repos/bharathtechacademy05/NewPlaywrightRepo",
-        "payload": {},
-          "expCode":200,
-          "expStatusMessage": "OK",
-          "expRepoName": "NewPlaywrightRepo",
-          "expRepoDataType": "string"
-    },
-    "deleteRepo":{
-        "requestType": "delete",
-        "endpoint": "/repos/bharathtechacademy05/NewPlaywrightRepo",
-        "payload": {},
-          "expCode":204,
-          "expStatusMessage": "No Content"
+            "description": "{description_to_be_updated}"
+            }
     }
 }

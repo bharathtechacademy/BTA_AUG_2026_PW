@@ -1,0 +1,7 @@
+{
+"body":{
+        "model": "{your_ai_model}",
+        "prompt": "{your_prompt}",
+        "stream": false
+        }
+}
