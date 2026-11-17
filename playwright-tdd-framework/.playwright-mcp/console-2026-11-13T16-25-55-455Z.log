@@ -1,0 +1,315 @@
+[    6418ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://id5-sync.com/k/1990.gif?puid=byTDXE8yS5CQslu7jnfoFg&gdpr_consent=&gdpr=0:1
+[    6756ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://odr.mookie1.com/t/v2?tagid=V2_393725&AMAZON_REGION_SPECIFIC_ENDPOINT=aax-eu.amazon-adsystem.com/s&src.visitorID=KoW1toX-RTupb_S89LNwvg:1
+[    6966ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://target.digitalaudience.io/bakery/bake?rvid=793&partner=AmazonDSP&car=0:1
+[    7230ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync-amazon.ads.yieldmo.com/sync?pn_id=amazon&id=3CN70UxJRzeQZ0B8ucc97A&redir=https%3A%2F%2Faax-eu.amazon-adsystem.com%2Fs%2Fecm3%3Fex%3DyieldmoHMT%26id%3D%7B%7Buserid%7D%7D&gdpr_consent=&gdpr=0:1
+[   29556ms] [ERROR] Error logged with the Track&Report JS errors API(http://tiny/1covqr6l8/wamazindeClieUserJava): {"m":"MIX C004 ","name":"Error","csm":"v5 ueLogError stack","logLevel":"WARN","attribution":"[cel_widget_id=\"sb-themed-collection-v2-desktop_loom-desktop-inline-slot_0\"]","pageURL":"https://www.amazon.in/s?k=iPhone+18+Pro+Max&ref=nb_sb_noss","f":"https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=iPhone+18+Pro+Max","l":"124","s":["Error:","at b.mix_csa (https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=iPhone+18+Pro+Max:124:53)","at https://www.amazon.in/s?k=iPhone+18+Pro+Max&ref=nb_sb_noss:2708:301"],"t":4336} {m: MIX C004 , name: Error, type: undefined, csm: v5 ueLogError stack, logLevel: WARN} @ https://images-na.ssl-images-amazon.com/images/I/215h87l68bL.js:4
+[   29557ms] [ERROR] Error logged with the Track&Report JS errors API(http://tiny/1covqr6l8/wamazindeClieUserJava): {"m":"MIX C004 ","name":"Error","csm":"v5 ueLogError stack","logLevel":"WARN","attribution":"[cel_widget_id=\"sb-themed-collection-v2-desktop_loom-desktop-inline-slot_0\"]","pageURL":"https://www.amazon.in/s?k=iPhone+18+Pro+Max&ref=nb_sb_noss","f":"https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=iPhone+18+Pro+Max","l":"124","s":["Error:","at b.mix_csa (https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=iPhone+18+Pro+Max:124:53)","at https://www.amazon.in/s?k=iPhone+18+Pro+Max&ref=nb_sb_noss:2751:75412"],"t":4339} {m: MIX C004 , name: Error, type: undefined, csm: v5 ueLogError stack, logLevel: WARN} @ https://images-na.ssl-images-amazon.com/images/I/215h87l68bL.js:4
+[   29558ms] [ERROR] Error logged with the Track&Report JS errors API(http://tiny/1covqr6l8/wamazindeClieUserJava): {"m":"MIX C004 ","name":"Error","csm":"v5 ueLogError stack","logLevel":"WARN","attribution":"[cel_widget_id=\"sb-themed-collection-v2-desktop_loom-desktop-inline-slot_0\"]","pageURL":"https://www.amazon.in/s?k=iPhone+18+Pro+Max&ref=nb_sb_noss","f":"https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=iPhone+18+Pro+Max","l":"124","s":["Error:","at b.mix_csa (https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=iPhone+18+Pro+Max:124:53)","at https://www.amazon.in/s?k=iPhone+18+Pro+Max&ref=nb_sb_noss:2754:249"],"t":4340} {m: MIX C004 , name: Error, type: undefined, csm: v5 ueLogError stack, logLevel: WARN} @ https://images-na.ssl-images-amazon.com/images/I/215h87l68bL.js:4
+[   30114ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://target.digitalaudience.io/bakery/bake?rvid=793&partner=AmazonDSP&car=0:1
+[   30150ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://odr.mookie1.com/t/v2?tagid=V2_393725&AMAZON_REGION_SPECIFIC_ENDPOINT=aax-eu.amazon-adsystem.com/s&src.visitorID=KoW1toX-RTupb_S89LNwvg:1
+[  306750ms] [INFO] Autofocus processing was blocked because a document already has a focused element. @ https://www.google.com/search?q=playwright&rlz=1C1FKPE_enIN1204IN1204&oq=playwr&gs_lcrp=EgZjaHJvbWUqCggAEAAYsQMYgAQyCggAEAAYsQMYgAQyCggBEAAYsQMYgAQyCggCEAAYsQMYgAQyCggDEAAYsQMYgAQyCggEEAAYsQMYgAQyBggFEEUYOTIKCAYQABiABBi0BzIGCAcQBRhAqAIAsAIA&sourceid=chrome&ie=UTF-8&sei=Qjv3ar-pKqWYhvcPmYeI0Ag:1
+[ 1698656ms] Cannot use 'import.meta' outside a module
+[ 1700278ms] [INFO] Creating a worker from 'blob:https://id.atlassian.com/c52f81ae-a69d-4336-bb1f-3649cd739680' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' *.atl-paas.net https://recaptcha.net https://www.recaptcha.net https://accounts.google.com https://www.gstatic.com https://*.awswaf.com". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/index.e0c2ea23.js:47
+[ 1700280ms] [INFO] Creating a worker from 'blob:https://id.atlassian.com/1e2e1d29-d8cd-4383-8cd2-948669860448' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' *.atl-paas.net https://recaptcha.net https://www.recaptcha.net https://accounts.google.com https://www.gstatic.com https://*.awswaf.com". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/index.e0c2ea23.js:47
+[ 1703483ms] [ERROR] Framing 'https://www.recaptcha.net/' violates the following report-only Content Security Policy directive: "default-src 'self' *.atl-paas.net". The violation has been logged, but no further action has been taken. Note that 'frame-src' was not explicitly set, so 'default-src' is used as a fallback.
+ @ https://www.gstatic.com/:1
+[ 1703517ms] [INFO] Loading the stylesheet 'https://accounts.google.com/gsi/style' violates the following Content Security Policy directive: "style-src 'self' 'unsafe-inline' *.atl-paas.net". Note that 'style-src-elem' was not explicitly set, so 'style-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://accounts.google.com/gsi/client:296
+[ 1703526ms] [INFO] Connecting to 'https://accounts.google.com/gsi/status?client_id=596149463257-9oquqfivs9on8t8erq23c8qso6vk3cp1.apps.googleusercontent.com&cas=gyadqpdojLJL2SLY9ldQzk0ZZk8g2ZMo9XgMPlYluWI&bs=on8XV08AwOzOlB19qt98pLt5NTaVtVLBXH4X5UKJO3U&has_opted_out_fedcm=false' violates the following Content Security Policy directive: "connect-src 'self' *.atl-paas.net https://*.atlassian.com https://*.ingest.sentry.io https://*.awswaf.com". The policy is report-only, so the violation has been logged but no further action has been taken. @ https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/index.e0c2ea23.js:43
+[ 1703634ms] [ERROR] Framing 'https://www.recaptcha.net/' violates the following report-only Content Security Policy directive: "default-src 'self' *.atl-paas.net". The violation has been logged, but no further action has been taken. Note that 'frame-src' was not explicitly set, so 'default-src' is used as a fallback.
+ @ https://www.gstatic.com/:1
+[ 1703662ms] [ERROR] Not signed in with the identity provider. @ https://id.atlassian.com/login?continue=https%3A%2F%2Fid.atlassian.com%2Fjoin%2Fuser-access%3Fresource%3Dari%253Acloud%253Ajira%253A%253Asite%252F7885fa40-da0b-47fb-98ee-84b62e4dd9fc%26continue%3Dhttps%253A%252F%252Fbharathtechacademy41.atlassian.net%252Fjira%252Fsoftware%252Fprojects%252FCRM&application=jira&orgId=3eccc4c6-7cb3-4669-bd3b-180d75c0ce65:1
+[ 1719237ms] [INFO] Connecting to 'https://www.recaptcha.net/recaptcha/enterprise/clr?k=6Le9VxMnAAAAALKRlj8jmKwUYmFTZWcF0y4o9QeD' violates the following Content Security Policy directive: "connect-src 'self' *.atl-paas.net https://*.atlassian.com https://*.ingest.sentry.io https://*.awswaf.com". The policy is report-only, so the violation has been logged but no further action has been taken. @ https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/index.e0c2ea23.js:43
+[ 1719237ms] [INFO] Connecting to 'https://www.recaptcha.net/recaptcha/enterprise/clr?k=6Le9VxMnAAAAALKRlj8jmKwUYmFTZWcF0y4o9QeD' violates the following Content Security Policy directive: "connect-src 'self' *.atl-paas.net https://*.atlassian.com https://*.ingest.sentry.io https://*.awswaf.com". The policy is report-only, so the violation has been logged but no further action has been taken. @ https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/index.e0c2ea23.js:43
+[ 1730162ms] [INFO] Creating a worker from 'blob:https://id.atlassian.com/2b4cafa9-571b-4ba4-8d24-ba51081f4255' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' *.atl-paas.net https://recaptcha.net https://www.recaptcha.net https://accounts.google.com https://www.gstatic.com https://*.awswaf.com". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/index.e0c2ea23.js:47
+[ 1730163ms] [INFO] Creating a worker from 'blob:https://id.atlassian.com/58b5e843-4b31-4ab4-a77a-9fccc1b73575' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' *.atl-paas.net https://recaptcha.net https://www.recaptcha.net https://accounts.google.com https://www.gstatic.com https://*.awswaf.com". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/index.e0c2ea23.js:47
+[ 1734624ms] ReferenceError: NREUM is not defined
+    at https://identity-common-frontend.prod-east.frontend.public.atl-paas.net/assets/index.944d78fc.js:1:162
+[ 1734739ms] [INFO] Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: "script-src 'self' 'unsafe-inline' *.atl-paas.net".
+ The policy is report-only, so the violation has been logged but no further action has been taken. @ https://identity-common-frontend.prod-east.frontend.public.atl-paas.net/assets/index.b05080c6.js:1
+[ 1734816ms] [INFO] Creating a worker from 'blob:https://id.atlassian.com/c9c179a6-8cbb-4978-8d35-cbff39992767' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' *.atl-paas.net". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://identity-common-frontend.prod-east.frontend.public.atl-paas.net/assets/index.b05080c6.js:81
+[ 1735176ms] [INFO] Connecting to 'https://api.atlassian.com/flags/api/v2/frontend/clientSdkKey/identity-common-frontend_web' violates the following Content Security Policy directive: "default-src 'self' *.atl-paas.net". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://identity-common-frontend.prod-east.frontend.public.atl-paas.net/assets/index.b05080c6.js:75
+[ 1735177ms] [INFO] Connecting to 'https://api.atlassian.com/flags/api/v2/frontend/clientSdkKey/identity-common-frontend_web' violates the following Content Security Policy directive: "default-src 'self' *.atl-paas.net". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://identity-common-frontend.prod-east.frontend.public.atl-paas.net/assets/index.b05080c6.js:75
+[ 1735178ms] [INFO] Connecting to 'https://api.atlassian.com/flags/api/v2/frontend/experimentValues' violates the following Content Security Policy directive: "default-src 'self' *.atl-paas.net". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://identity-common-frontend.prod-east.frontend.public.atl-paas.net/assets/index.b05080c6.js:75
+[ 1735178ms] [INFO] Connecting to 'https://api.atlassian.com/flags/api/v2/frontend/experimentValues' violates the following Content Security Policy directive: "default-src 'self' *.atl-paas.net". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://identity-common-frontend.prod-east.frontend.public.atl-paas.net/assets/index.b05080c6.js:75
+[ 1735463ms] [INFO] Connecting to 'https://xp.atlassian.com/v1/rgstr?k=client-GQUrn8c2Kj0tpzhlyxTOTWzhhuWoh9Ifp89phDj7EHf&st=javascript-client&sv=3.15.2&t=1794588890917&sid=fad8bda9-d820-4fa4-87a8-de8001cb6f18&ec=3' violates the following Content Security Policy directive: "default-src 'self' *.atl-paas.net". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://identity-common-frontend.prod-east.frontend.public.atl-paas.net/assets/index.b05080c6.js:75
+[ 1735464ms] [INFO] Connecting to 'https://xp.atlassian.com/v1/rgstr?k=client-GQUrn8c2Kj0tpzhlyxTOTWzhhuWoh9Ifp89phDj7EHf&st=javascript-client&sv=3.15.2&t=1794588890917&sid=fad8bda9-d820-4fa4-87a8-de8001cb6f18&ec=3' violates the following Content Security Policy directive: "default-src 'self' *.atl-paas.net". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://identity-common-frontend.prod-east.frontend.public.atl-paas.net/assets/index.b05080c6.js:75
+[ 1736106ms] [INFO] Creating a worker from 'blob:https://id.atlassian.com/3f26647a-50c4-4bff-8b31-decf14fc2275' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' *.atl-paas.net https://recaptcha.net https://www.recaptcha.net https://accounts.google.com https://www.gstatic.com https://*.awswaf.com". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/index.e0c2ea23.js:47
+[ 1736108ms] [INFO] Creating a worker from 'blob:https://id.atlassian.com/a80d2908-eddd-4e58-bd04-2fd2f5fe0fe4' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' *.atl-paas.net https://recaptcha.net https://www.recaptcha.net https://accounts.google.com https://www.gstatic.com https://*.awswaf.com". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/index.e0c2ea23.js:47
+[ 1738949ms] Cannot use 'import.meta' outside a module
+[ 1741110ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bharathtechacademy41.atlassian.net/rest/api/3/user/properties/cross.join.nudges.jpd.visited.count?accountId=712020:64a328f9-e66e-45c8-9e87-0c0423f846ff:1
+[ 1741321ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bharathtechacademy41.atlassian.net/rest/api/3/user/properties/CROSS_JOIN_NUDGES_JIRA_TO_JPD?accountId=712020:64a328f9-e66e-45c8-9e87-0c0423f846ff:1
+[ 1741508ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bharathtechacademy41.atlassian.net/rest/api/3/mypreferences?key=jira.user.theme.standard-to-premium-ea-pill.dismissed:1
+[ 1741526ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bharathtechacademy41.atlassian.net/rest/api/3/mypreferences?key=jira.user.theme.premium-ea-pill.dismissed:1
+[ 1741731ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bharathtechacademy41.atlassian.net/rest/api/3/mypreferences?key=jira.user.theme.custom-nav-bar-section-message.dismissed:1
+[ 1741746ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bharathtechacademy41.atlassian.net/rest/api/3/mypreferences?key=jira.user.theme.custom-nav-bar-flag.dismissed:1
+[ 1741877ms] [WARNING] Deprecated API for given entry type. @ https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/react-ufo-create-extra-search-page-interaction-payload.27597352.js:2
+[ 1742878ms] [INFO] Clear-Site-Data header on 'https://bharathtechacademy41.atlassian.net/gateway/api/post-office/api/v1/message-instance-event/bulk': Cleared data types: "cache". @ https://bharathtechacademy41.atlassian.net/jira/software/projects/CRM:1
+[ 1745145ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bharathtechacademy41.atlassian.net/rest/api/3/mypreferences?key=jira.its.changeboarding.preferences:1
+[ 1745330ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bharathtechacademy41.atlassian.net/rest/api/latest/user/properties/hasDismissedConfluenceDummyLink?accountId=712020%3A64a328f9-e66e-45c8-9e87-0c0423f846ff:1
+[ 1745331ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bharathtechacademy41.atlassian.net/rest/api/latest/user/properties/hasDismissedConfluenceDummyLinkCoUse?accountId=712020%3A64a328f9-e66e-45c8-9e87-0c0423f846ff:1
+[ 1746710ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://bharathtechacademy41.atlassian.net/wiki/rest/api/user/current?expand=operations,personalSpace:1
+[ 1746997ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://bharathtechacademy41.atlassian.net/wiki/api/v2/spaces?limit=1&status=current:1
+[ 1753946ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bharathtechacademy41.atlassian.net/rest/api/3/mypreferences?key=issue.collapsible-group.CRM:1
+[ 1753949ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bharathtechacademy41.atlassian.net/rest/api/latest/user/properties/autoHighlightingEnabled?accountId=712020%3A64a328f9-e66e-45c8-9e87-0c0423f846ff:1
+[ 1753963ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://bharathtechacademy41.atlassian.net/rest/api/latest/user/properties/loom-quick-add-ad-control-dismissed-7885fa40-da0b-47fb-98ee-84b62e4dd9fc?accountId=712020%3A64a328f9-e66e-45c8-9e87-0c0423f846ff:1
+[ 1754149ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://bharathtechacademy41.atlassian.net/gateway/api/jsd/escalator/7885fa40-da0b-47fb-98ee-84b62e4dd9fc/api/user-rights/has-opsgenie-access?accountId=712020:64a328f9-e66e-45c8-9e87-0c0423f846ff:1
+[39659836ms] [ERROR] WebSocket connection to 'wss://bharathtechacademy41.atlassian.net/gateway/api/graphql/subscriptions' failed: Error in connection establishment: net::ERR_NAME_NOT_RESOLVED @ https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:2
+[39659867ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bharathtechacademy41.atlassian.net/gateway/api/gasv3/api/v1/metadata?product=jira&userId=&userIdType=&tenantId=7885fa40-da0b-47fb-98ee-84b62e4dd9fc&tenantIdType=cloudId:1
+[39659918ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bharathtechacademy41.atlassian.net/rest/internal/2/log/safe/error:1
+[39659919ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bharathtechacademy41.atlassian.net/rest/internal/2/log/safe/error:1
+[39659919ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bharathtechacademy41.atlassian.net/gateway/api/gasv3/api/v1/metadata?product=jira&userId=712020%3A64a328f9-e66e-45c8-9e87-0c0423f846ff&userIdType=atlassianAccount&tenantId=7885fa40-da0b-47fb-98ee-84b62e4dd9fc&tenantIdType=cloudId:1
+[39659919ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bharathtechacademy41.atlassian.net/gateway/api/consenthub/session/user/consents/cookies:1
+[39659950ms] TypeError: Failed to fetch
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:1336)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2045
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32023)
+    at Object.add (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32078)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2037
+    at new Promise (<anonymous>)
+    at s (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2015)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2203
+    at n.rateLimit (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:31860)
+    at l (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2152)
+    at Object.safeErrorWithoutCustomerData (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2723)
+    at Object.onError [as error] (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/async-next-gen-backlog.ddfdb636.js:466:237624)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at t._error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:479914)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:477656)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:420062)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:14895)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:15503)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:2:206460
+[39659949ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bharathtechacademy41.atlassian.net/gateway/api/graphql/pq/9f3b4a09a7e4266768d98a555e0cad4773688c2aea1b8b19bc7c70ae5741160a?operation=Nav4NotificationsRefetchableQuery&variables=%7B%22collabContextRoutingAri%22%3A%22ari%3Acloud%3Aplatform%3A%3Asite%2F7885fa40-da0b-47fb-98ee-84b62e4dd9fc%22%7D:1
+[39659962ms] TypeError: Failed to fetch
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:1336)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2045
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32023)
+    at Object.add (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32078)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2037
+    at new Promise (<anonymous>)
+    at s (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2015)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2203
+    at n.rateLimit (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:31860)
+    at l (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2152)
+    at Object.safeErrorWithoutCustomerData (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2723)
+    at Object.onError [as error] (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/async-issue-app.0168cce9.js:288:245675)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at t._error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:479914)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:477656)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:420062)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:14895)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:15503)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:2:206460
+[39660008ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bharathtechacademy41.atlassian.net/rest/internal/2/log/unsafe/frontend-exception:1
+[39660015ms] TypeError: Failed to fetch
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:1336)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2314
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32023)
+    at Object.add (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32078)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2306
+    at new Promise (<anonymous>)
+    at u (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2284)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2517
+    at n.rateLimit (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:31860)
+    at c (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2466)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2803)
+    at Object.u (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/jira-spa.37d4ef33.js:2:124213)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:2:223061)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:148)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:1386
+[39660024ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bharathtechacademy41.atlassian.net/rest/internal/2/log/safe/error:1
+[39660042ms] TypeError: Failed to fetch
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:1336)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2045
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32023)
+    at Object.add (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32078)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2037
+    at new Promise (<anonymous>)
+    at s (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2015)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2203
+    at n.rateLimit (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:31860)
+    at l (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2152)
+    at Object.safeErrorWithoutCustomerData (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2723)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/jira-spa.37d4ef33.js:1468:185966)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:425275
+    at Set.forEach (<anonymous>)
+    at t.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:425246)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:422955)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at t._error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:479914)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:477656)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:420062)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:2:223075)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:148)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:1386
+[39660029ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bharathtechacademy41.atlassian.net/gateway/api/gasv3/api/v1/metadata?product=atlassianCookies&userId=712020%3A64a328f9-e66e-45c8-9e87-0c0423f846ff&userIdType=atlassianAccount&tenantId=7885fa40-da0b-47fb-98ee-84b62e4dd9fc&tenantIdType=cloudId:1
+[67629082ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://bharathtechacademy41.atlassian.net/gateway/api/gasv3/api/v1/batch:1
+[67629183ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bharathtechacademy41.atlassian.net/gateway/api/consenthub/session/user/consents/cookies:1
+[67629187ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://xp.atlassian.com/v1/rgstr?k=client-7hFqlBhHaY5b2zA7LaaHDy1QKH7yZigbikmrwNpCuRy&st=javascript-client&sv=3.30.2&t=1794654784535&sid=e88926e1-11ea-4572-9fef-856dfdce88f3&ec=4&gz=1:1
+[67629234ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bharathtechacademy41.atlassian.net/rest/internal/2/log/unsafe/emau:1
+[67629248ms] TypeError: Failed to fetch
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~commons~ar.7b2184d2.js:20:57849)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~atlassian~ar.f2523f29.js:3:383590
+    at o.track (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~atlassian~ar.f2523f29.js:3:313393)
+[67629236ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://bharathtechacademy41.atlassian.net/gateway/api/gasv3/api/v1/batch:1
+[67629350ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://as.atlassian.com/api/v1/batch:1
+[67629352ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/gateway/api/gasv3/api/v1/metadata?product=jira&userId=712020%3A64a328f9-e66e-45c8-9e87-0c0423f846ff&userIdType=atlassianAccount&tenantId=7885fa40-da0b-47fb-98ee-84b62e4dd9fc&tenantIdType=cloudId:1
+[67629353ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/gateway/api/gasv3/api/v1/metadata?product=atlassianCookies&userId=712020%3A64a328f9-e66e-45c8-9e87-0c0423f846ff&userIdType=atlassianAccount&tenantId=7885fa40-da0b-47fb-98ee-84b62e4dd9fc&tenantIdType=cloudId:1
+[67629353ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/rest/api/2/attachment/read/issue/CRM-5/credentials?maxTokenLength=65536:1
+[67629355ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/gateway/api/graphql/pq/9f3b4a09a7e4266768d98a555e0cad4773688c2aea1b8b19bc7c70ae5741160a?operation=Nav4NotificationsRefetchableQuery&variables=%7B%22collabContextRoutingAri%22%3A%22ari%3Acloud%3Aplatform%3A%3Asite%2F7885fa40-da0b-47fb-98ee-84b62e4dd9fc%22%7D:1
+[67629358ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/rest/api/2/attachment/upload/issue/CRM-5/credentials:1
+[67629358ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/gateway/api/graphql/pq/fc087fbd81be4ad450b1850cf643e940ddf428978fad8f4930851d1eda8df7dd?operation=consolidatedResourcesQuery&variables=%7B%22issueKey%22%3A%22CRM-5%22%2C%22cloudId%22%3A%227885fa40-da0b-47fb-98ee-84b62e4dd9fc%22%2C%22maxResults%22%3A6%2C%22startAt%22%3A%22%22%2C%22orderField%22%3A%22CREATED%22%2C%22orderDirection%22%3A%22DESC%22%2C%22filters%22%3A%5B%7B%22integration%22%3A%22CONFLUENCE%22%7D%2C%7B%22integration%22%3A%22WHITEBOARD%22%7D%2C%7B%22integration%22%3A%22LOOM%22%7D%2C%7B%22integration%22%3A%22ATTACHMENT%22%2C%22types%22%3A%5B%5D%7D%5D%2C%22totalCount%22%3A0%2C%22totalLinks%22%3A0%2C%22next%22%3A%22%22%2C%22isLast%22%3Afalse%2C%22targetPageNumber%22%3A1%2C%22currentPageNumber%22%3A0%7D:1
+[67629409ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/gateway/api/graphql/pq/fc087fbd81be4ad450b1850cf643e940ddf428978fad8f4930851d1eda8df7dd?operation=consolidatedResourcesQuery&variables=%7B%22issueKey%22%3A%22CRM-5%22%2C%22cloudId%22%3A%227885fa40-da0b-47fb-98ee-84b62e4dd9fc%22%2C%22maxResults%22%3A6%2C%22startAt%22%3A%22%22%2C%22filters%22%3A%5B%7B%22integration%22%3A%22CONFLUENCE%22%7D%2C%7B%22integration%22%3A%22WHITEBOARD%22%7D%2C%7B%22integration%22%3A%22LOOM%22%7D%2C%7B%22integration%22%3A%22ATTACHMENT%22%2C%22types%22%3A%5B%5D%7D%5D%2C%22totalCount%22%3A0%2C%22totalLinks%22%3A0%2C%22next%22%3A%22%22%2C%22isLast%22%3Afalse%2C%22targetPageNumber%22%3A1%2C%22currentPageNumber%22%3A0%7D:1
+[67629411ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/gateway/api/gasv3/api/v1/metadata?product=jira&userId=&userIdType=&tenantId=7885fa40-da0b-47fb-98ee-84b62e4dd9fc&tenantIdType=cloudId:1
+[67631242ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/gateway/api/gasv3/api/v1/batch:1
+[67631244ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://xp.atlassian.com/v1/rgstr?k=client-7hFqlBhHaY5b2zA7LaaHDy1QKH7yZigbikmrwNpCuRy&st=javascript-client&sv=3.30.2&t=1794654785201&sid=e88926e1-11ea-4572-9fef-856dfdce88f3&ec=4&gz=1:1
+[67631245ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/rest/internal/2/log/unsafe/frontend-exception:1
+[67631247ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/rest/internal/2/log/unsafe/frontend-exception:1
+[67631247ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/rest/internal/2/log/safe/error:1
+[67631248ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/rest/internal/2/log/unsafe/frontend-exception:1
+[67631248ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/rest/internal/2/log/unsafe/frontend-exception:1
+[67631252ms] TypeError: Failed to fetch
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:1336)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2314
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32023)
+    at Object.add (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32078)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2306
+    at new Promise (<anonymous>)
+    at u (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2284)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2517
+    at n.rateLimit (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:31860)
+    at c (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2466)
+    at Object.e [as unsafeErrorWithCustomerData] (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2803)
+    at f (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:385179)
+    at i.componentDidCatch (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~commons~ar.7b2184d2.js:20:98778)
+    at i.componentDidCatch.r.callback (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:289276)
+    at ig (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:275068)
+    at sA (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:319777)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:335291)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:335187)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:335187)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:335187)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:335187)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:335187)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:335187)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:335187)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:335187)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:335187)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:335302
+    at l_ (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:336419)
+    at lo (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:324934)
+    at H (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~stable~ar.05fd2121.js:2:24296)
+    at MessagePort.Q (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~stable~ar.05fd2121.js:2:24779)
+[67631253ms] TypeError: Failed to fetch
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:1336)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2314
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32023)
+    at Object.add (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32078)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2306
+    at new Promise (<anonymous>)
+    at u (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2284)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2517
+    at n.rateLimit (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:31860)
+    at c (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2466)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2803)
+    at Object.u (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/jira-spa.37d4ef33.js:2:124213)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:2:223061)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:148)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:1386
+[67631255ms] TypeError: Failed to fetch
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:1336)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2045
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32023)
+    at Object.add (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32078)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2037
+    at new Promise (<anonymous>)
+    at s (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2015)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2203
+    at n.rateLimit (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:31860)
+    at l (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2152)
+    at Object.safeErrorWithoutCustomerData (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2723)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/jira-spa.37d4ef33.js:1468:185966)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:425275
+    at Set.forEach (<anonymous>)
+    at t.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:425246)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:422955)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at t._error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:479914)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:477656)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:420062)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:2:223075)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:148)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:1386
+[67631257ms] TypeError: Failed to fetch
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:1336)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2314
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32023)
+    at Object.add (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32078)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2306
+    at new Promise (<anonymous>)
+    at u (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2284)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2517
+    at n.rateLimit (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:31860)
+    at c (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2466)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2803)
+    at Object.u (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/jira-spa.37d4ef33.js:2:124213)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:2:223061)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:148)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:1386
+[67631260ms] TypeError: Failed to fetch
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:1336)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2314
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32023)
+    at Object.add (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32078)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2306
+    at new Promise (<anonymous>)
+    at u (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2284)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2517
+    at n.rateLimit (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:31860)
+    at c (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2466)
+    at e (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2803)
+    at Object.u (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/jira-spa.37d4ef33.js:2:124213)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:2:223061)
+    at Object.error (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:421107)
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:148)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~atlassian-navigation~vendor~ar.926e4ab1.js:3:1386
+[67631259ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/rest/internal/2/log/safe/error:1
+[67631261ms] TypeError: Failed to fetch
+    at o (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:1336)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:2:2045
+    at n (https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32023)
+    at https://jira-fe.prod-east.frontend.public.atl-paas.net/assets/shared~vendor~ar.d0766084.js:5:32044
+    at <anonymous>
+[67633261ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://xp.atlassian.com/v1/rgstr?k=client-7hFqlBhHaY5b2zA7LaaHDy1QKH7yZigbikmrwNpCuRy&st=javascript-client&sv=3.30.2&t=1794654788712&sid=e88926e1-11ea-4572-9fef-856dfdce88f3&ec=4&gz=1:1
+[67683313ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://xp.atlassian.com/v1/rgstr?k=client-7hFqlBhHaY5b2zA7LaaHDy1QKH7yZigbikmrwNpCuRy&st=javascript-client&sv=3.30.2&t=1794654838571&sid=e88926e1-11ea-4572-9fef-856dfdce88f3&ec=1&gz=1:1
+[67683318ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/rest/api/2/attachment/read/issue/CRM-5/credentials?maxTokenLength=65536:1
+[67683319ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://xp.atlassian.com/v1/rgstr?k=client-7hFqlBhHaY5b2zA7LaaHDy1QKH7yZigbikmrwNpCuRy&st=javascript-client&sv=3.30.2&t=1794654838568&sid=e88926e1-11ea-4572-9fef-856dfdce88f3&ec=4&gz=1:1
+[67683330ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://bharathtechacademy41.atlassian.net/rest/api/2/attachment/upload/issue/CRM-5/credentials:1
+[67683827ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://xp.atlassian.com/v1/rgstr?k=client-7hFqlBhHaY5b2zA7LaaHDy1QKH7yZigbikmrwNpCuRy&st=javascript-client&sv=3.30.2&t=1794654839279&sid=e88926e1-11ea-4572-9fef-856dfdce88f3&ec=1&gz=1:1

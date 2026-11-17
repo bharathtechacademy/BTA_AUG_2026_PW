@@ -1,0 +1,524 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Analysis Report - CRM-5</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; background: white; min-height: 100vh; }
+        h1 { color: #003d82; border-bottom: 3px solid #0066cc; padding-bottom: 10px; margin-bottom: 20px; }
+        h2 { color: #0066cc; margin-top: 30px; margin-bottom: 15px; border-left: 4px solid #0066cc; padding-left: 10px; }
+        h3 { color: #003d82; margin-top: 20px; margin-bottom: 10px; }
+        .metadata-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0; }
+        .metadata-item { background: #f9f9f9; padding: 12px; border-left: 3px solid #0066cc; }
+        .metadata-item strong { color: #003d82; }
+        .jira-content { background: #f0f7ff; padding: 15px; border-left: 4px solid #0066cc; margin: 15px 0; border-radius: 4px; }
+        ul { margin-left: 20px; margin-top: 10px; }
+        li { margin-bottom: 8px; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        th { background: #003d82; color: white; padding: 12px; text-align: left; }
+        td { border-bottom: 1px solid #ddd; padding: 10px; }
+        tr:hover { background: #f9f9f9; }
+        .checklist { background: #f9f9f9; padding: 15px; margin: 15px 0; border-radius: 4px; }
+        .checklist-item { margin-bottom: 10px; padding: 8px; background: white; border-left: 3px solid #28a745; padding-left: 12px; }
+        .risk-high { background: #ffebee; border-left: 3px solid #d32f2f; padding: 12px; margin: 10px 0; }
+        .risk-medium { background: #fff3e0; border-left: 3px solid #f57c00; padding: 12px; margin: 10px 0; }
+        .risk-low { background: #e8f5e9; border-left: 3px solid #388e3c; padding: 12px; margin: 10px 0; }
+        .section-box { background: #f5f5f5; padding: 15px; margin: 15px 0; border-radius: 4px; border: 1px solid #ddd; }
+        .effort-estimate { background: #e3f2fd; padding: 15px; border-radius: 4px; margin: 15px 0; }
+        strong.label { color: #003d82; }
+        .header-meta { background: #f0f7ff; padding: 20px; border-radius: 4px; margin-bottom: 30px; }
+        .report-generated { text-align: right; color: #666; font-size: 12px; margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>QA Requirement Analysis & Test Plan Report</h1>
+        
+        <div class="header-meta">
+            <h2 style="margin-top: 0;">Story Information</h2>
+            <div class="metadata-grid">
+                <div class="metadata-item">
+                    <strong>Issue Key:</strong> CRM-5
+                </div>
+                <div class="metadata-item">
+                    <strong>Issue Type:</strong> Story
+                </div>
+                <div class="metadata-item">
+                    <strong>Status:</strong> To Do
+                </div>
+                <div class="metadata-item">
+                    <strong>Priority:</strong> Medium
+                </div>
+                <div class="metadata-item">
+                    <strong>Reporter:</strong> Bharath Tech Academy
+                </div>
+                <div class="metadata-item">
+                    <strong>Assignee:</strong> Unassigned
+                </div>
+                <div class="metadata-item">
+                    <strong>Created:</strong> 2026-11-06
+                </div>
+                <div class="metadata-item">
+                    <strong>Updated:</strong> 2026-11-06
+                </div>
+            </div>
+        </div>
+
+        <h2>Story Title</h2>
+        <p><strong style="font-size: 16px;">Login Form Validations for basic Login with user credentials</strong></p>
+
+        <h2>User Story (Jira Requirement)</h2>
+        <div class="jira-content">
+            <h3>User Story</h3>
+            <p>As an existing user, when I log in to my Creatio CRM account, I want to use my business email and password through a secure and well-designed form so that I can sign in and see clear errors when I enter invalid credentials.</p>
+            
+            <h3>Context</h3>
+            <p>This issue is about validating the basic login form for Creatio CRM. It covers error handling for invalid email formats, overly long email values, overly long passwords, and invalid login credentials.</p>
+            
+            <h3>Acceptance Criteria</h3>
+            <ul>
+                <li>The Business Email field should be highlighted in red and show <strong>"Invalid email format"</strong> when the user enters an invalid email format or domain name.</li>
+                <li>The Business Email field should be highlighted in red and show <strong>"Invalid email format"</strong> when the user enters an email with more than 400 characters.</li>
+                <li>The Password field should be highlighted in red and show <strong>"Invalid value. Value must contain up to 100 characters"</strong> when the user enters a password with more than 100 characters.</li>
+                <li><strong>"Invalid email or password"</strong> should be shown at the bottom of the page when the user enters an invalid username or password and tries to log in.</li>
+            </ul>
+        </div>
+
+        <h2>Requirement Understanding & Analysis</h2>
+        
+        <h3>Business Objective</h3>
+        <p>To implement comprehensive validation on the Creatio CRM login form that provides clear, user-friendly error messages for invalid inputs and protects the application from malformed data entry.</p>
+
+        <h3>Functional Summary</h3>
+        <ul>
+            <li>Validate email format on the Business Email field</li>
+            <li>Enforce email character length limit (max 400 characters)</li>
+            <li>Enforce password character length limit (max 100 characters)</li>
+            <li>Display appropriate error messages for validation failures</li>
+            <li>Provide authentication error messaging for invalid credentials</li>
+        </ul>
+
+        <h3>Key Dependencies & Constraints</h3>
+        <ul>
+            <li><strong>Email Validation Library:</strong> A robust email validation mechanism that recognizes valid RFC 5322 formats</li>
+            <li><strong>Client-side vs Server-side:</strong> Validation should occur on both client (UI feedback) and server (security)</li>
+            <li><strong>Error Message Display:</strong> UI must support red highlighting and clear error text placement</li>
+            <li><strong>Backend Authentication:</strong> Server must validate credentials and return appropriate error responses</li>
+            <li><strong>Security Considerations:</strong> Passwords must not be logged; validation errors must not reveal whether email exists</li>
+        </ul>
+
+        <h2>QA Validation Checklist</h2>
+        <div class="checklist">
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC1.1:</strong> Email field validation - Invalid format (missing @)
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC1.2:</strong> Email field validation - Invalid format (missing domain)
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC1.3:</strong> Email field validation - Invalid format (invalid domain extension)
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC1.4:</strong> Email field validation - Red highlighting display
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC1.5:</strong> Email field validation - Error message text: "Invalid email format"
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC2.1:</strong> Email length validation - 401 character input rejected
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC2.2:</strong> Email length validation - 400 character input accepted
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC2.3:</strong> Email length validation - Red highlighting for oversized input
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC2.4:</strong> Email length validation - Error message display
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC3.1:</strong> Password length validation - 101 character input rejected
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC3.2:</strong> Password length validation - 100 character input accepted
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC3.3:</strong> Password length validation - Red highlighting for oversized input
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC3.4:</strong> Password length validation - Error message: "Invalid value. Value must contain up to 100 characters"
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC4.1:</strong> Authentication failure - Invalid username/password error message displayed
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC4.2:</strong> Authentication failure - Error appears at bottom of login form
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>AC4.3:</strong> Authentication failure - Message text: "Invalid email or password"
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>UI1:</strong> Valid credentials allow successful login
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>UI2:</strong> Form maintains state on validation errors
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>SEC1:</strong> Password field does not display plain text (masked)
+            </div>
+            <div class="checklist-item">
+                <input type="checkbox"> <strong>SEC2:</strong> No sensitive data in browser console or network logs
+            </div>
+        </div>
+
+        <h2>Things to be Taken Care of (Dev & Infrastructure)</h2>
+        <ul>
+            <li>Implement email validation regex or library that handles RFC 5322 compliance</li>
+            <li>Set up character limit enforcement in the form fields (400 for email, 100 for password)</li>
+            <li>Add CSS styling for error state (red border/highlight for invalid fields)</li>
+            <li>Create error message display container at the bottom of the login form</li>
+            <li>Implement server-side validation to reject oversized payloads</li>
+            <li>Ensure backend authentication service returns consistent error messages</li>
+            <li>Set up password field masking (bullets/asterisks)</li>
+            <li>Implement client-side form state management for error persistence</li>
+        </ul>
+
+        <h2>What Needs to be Developed (Dev Team Scope)</h2>
+        <ul>
+            <li><strong>Email Validator Component:</strong> Function/component that validates email format and length</li>
+            <li><strong>Password Validator Component:</strong> Function/component that validates password length</li>
+            <li><strong>Error State Handler:</strong> Logic to manage UI error states and highlighting</li>
+            <li><strong>Form Error Display:</strong> UI component to show bottom-of-form error messages</li>
+            <li><strong>Backend Validation Endpoint:</strong> API that validates credentials and returns error responses</li>
+            <li><strong>Error Message Constants:</strong> Centralized error message definitions</li>
+        </ul>
+
+        <h2>What Needs to be Tested (QA Team Scope)</h2>
+        <ul>
+            <li>Email format validation across all invalid formats</li>
+            <li>Email length boundary testing (400, 401 characters)</li>
+            <li>Password length boundary testing (100, 101 characters)</li>
+            <li>Error message accuracy and placement</li>
+            <li>UI visual states (red highlighting, error display)</li>
+            <li>Authentication with valid and invalid credentials</li>
+            <li>Form behavior during validation errors</li>
+            <li>Cross-browser compatibility of validation and error display</li>
+            <li>Accessibility of error messages and visual indicators</li>
+            <li>Security: password masking, no console leaks</li>
+        </ul>
+
+        <h2>Test Plan</h2>
+
+        <h3>Objective</h3>
+        <p>Validate that the Creatio CRM login form correctly implements all input validation rules and provides appropriate error messaging for invalid inputs and authentication failures.</p>
+
+        <h3>Scope</h3>
+        <div class="section-box">
+            <strong>In Scope:</strong>
+            <ul>
+                <li>Business Email field validation (format and length)</li>
+                <li>Password field validation (length)</li>
+                <li>Error message display and formatting</li>
+                <li>Login form visual states (error highlighting)</li>
+                <li>Authentication error messaging</li>
+                <li>Browser compatibility (Chrome, Firefox, Safari, Edge)</li>
+            </ul>
+            <strong style="display: block; margin-top: 15px;">Out of Scope:</strong>
+            <ul>
+                <li>Password reset functionality</li>
+                <li>Account lockout after multiple failed attempts</li>
+                <li>Two-factor authentication</li>
+                <li>Password complexity rules (beyond length)</li>
+                <li>Backend performance testing</li>
+            </ul>
+        </div>
+
+        <h3>Risks & Assumptions</h3>
+        <div class="risk-high">
+            <strong>🔴 Risk (High):</strong> Validation not enforced on backend could allow oversized payloads to be submitted, causing application errors or security issues.
+        </div>
+        <div class="risk-medium">
+            <strong>🟠 Risk (Medium):</strong> Email validation regex might not handle all edge cases (internationalized domains, subdomains), leading to false positives/negatives.
+        </div>
+        <div class="risk-medium">
+            <strong>🟠 Risk (Medium):</strong> If error messages are too generic or inconsistent, users may not understand validation requirements.
+        </div>
+        <div class="risk-low">
+            <strong>⚪ Risk (Low):</strong> Visual styling of error state may not be accessible (color-only indication) for color-blind users.
+        </div>
+        <div class="section-box" style="background: #e8f5e9; border-left: 3px solid #388e3c;">
+            <strong>Assumptions:</strong>
+            <ul>
+                <li>Login form HTML/template is already available for testing</li>
+                <li>Backend authentication service is functional and returns appropriate error codes</li>
+                <li>Email validation follows standard RFC 5322 format</li>
+                <li>Red highlighting for errors is the standard visual indicator</li>
+                <li>Testing environment has internet access for email verification services if needed</li>
+            </ul>
+        </div>
+
+        <h3>Test Strategy</h3>
+        <p><strong>Approach:</strong> Boundary value analysis, equivalence partitioning, and negative testing to validate all acceptance criteria.</p>
+        <ul>
+            <li><strong>Layer 1 - Unit Testing:</strong> Validator functions for email format and length rules</li>
+            <li><strong>Layer 2 - UI/Integration Testing:</strong> Form field behavior, error display, highlighting</li>
+            <li><strong>Layer 3 - End-to-End Testing:</strong> Complete login flow with valid/invalid credentials</li>
+            <li><strong>Layer 4 - Accessibility/Browser Testing:</strong> Cross-browser and accessibility compliance</li>
+        </ul>
+
+        <h3>Positive Test Scenarios</h3>
+        <table>
+            <tr>
+                <th>Scenario ID</th>
+                <th>Test Case Description</th>
+                <th>Expected Result</th>
+            </tr>
+            <tr>
+                <td>POS-01</td>
+                <td>User enters valid email and valid password, clicks login</td>
+                <td>User is successfully authenticated and redirected to dashboard</td>
+            </tr>
+            <tr>
+                <td>POS-02</td>
+                <td>User enters email with exactly 400 characters (boundary)</td>
+                <td>Email is accepted, no validation error shown</td>
+            </tr>
+            <tr>
+                <td>POS-03</td>
+                <td>User enters password with exactly 100 characters (boundary)</td>
+                <td>Password is accepted, no validation error shown</td>
+            </tr>
+            <tr>
+                <td>POS-04</td>
+                <td>User enters valid email format variations (subdomain, multiple dots, etc.)</td>
+                <td>All valid formats are accepted without error</td>
+            </tr>
+        </table>
+
+        <h3>Negative Test Scenarios</h3>
+        <table>
+            <tr>
+                <th>Scenario ID</th>
+                <th>Test Case Description</th>
+                <th>Expected Result</th>
+            </tr>
+            <tr>
+                <td>NEG-01</td>
+                <td>Email without @ symbol (e.g., "invalidemail.com")</td>
+                <td>Email field highlighted red, error message: "Invalid email format"</td>
+            </tr>
+            <tr>
+                <td>NEG-02</td>
+                <td>Email without domain extension (e.g., "user@domain")</td>
+                <td>Email field highlighted red, error message: "Invalid email format"</td>
+            </tr>
+            <tr>
+                <td>NEG-03</td>
+                <td>Email with invalid domain extension (e.g., "user@domain.c")</td>
+                <td>Email field highlighted red, error message: "Invalid email format"</td>
+            </tr>
+            <tr>
+                <td>NEG-04</td>
+                <td>Email with 401 characters (exceeds 400-char limit)</td>
+                <td>Email field highlighted red, error message: "Invalid email format"</td>
+            </tr>
+            <tr>
+                <td>NEG-05</td>
+                <td>Password with 101 characters (exceeds 100-char limit)</td>
+                <td>Password field highlighted red, error message: "Invalid value. Value must contain up to 100 characters"</td>
+            </tr>
+            <tr>
+                <td>NEG-06</td>
+                <td>Valid email format but non-existent account (invalid credentials)</td>
+                <td>Error shown at bottom of form: "Invalid email or password"</td>
+            </tr>
+            <tr>
+                <td>NEG-07</td>
+                <td>Valid email but incorrect password (invalid credentials)</td>
+                <td>Error shown at bottom of form: "Invalid email or password"</td>
+            </tr>
+            <tr>
+                <td>NEG-08</td>
+                <td>Both email and password fields have validation errors</td>
+                <td>Both fields highlighted in red with respective error messages</td>
+            </tr>
+        </table>
+
+        <h3>Edge/Corner Cases</h3>
+        <table>
+            <tr>
+                <th>Scenario ID</th>
+                <th>Test Case Description</th>
+                <th>Expected Result</th>
+            </tr>
+            <tr>
+                <td>EDGE-01</td>
+                <td>Email with leading/trailing whitespace (e.g., " user@domain.com ")</td>
+                <td>Whitespace trimmed or error message shown consistently</td>
+            </tr>
+            <tr>
+                <td>EDGE-02</td>
+                <td>Email with multiple @ symbols (e.g., "user@@domain.com")</td>
+                <td>Email field highlighted red, error message: "Invalid email format"</td>
+            </tr>
+            <tr>
+                <td>EDGE-03</td>
+                <td>Special characters in email local part (e.g., "user+tag@domain.com")</td>
+                <td>Email accepted if valid RFC 5322 compliant</td>
+            </tr>
+            <tr>
+                <td>EDGE-04</td>
+                <td>Very long password (100 chars, all special characters)</td>
+                <td>Password accepted and masked correctly</td>
+            </tr>
+            <tr>
+                <td>EDGE-05</td>
+                <td>Empty email field submission</td>
+                <td>Error message displayed (implementation specific - may be required field)</td>
+            </tr>
+            <tr>
+                <td>EDGE-06</td>
+                <td>Empty password field submission</td>
+                <td>Error message displayed (implementation specific - may be required field)</td>
+            </tr>
+            <tr>
+                <td>EDGE-07</td>
+                <td>Rapid successive login attempts with invalid credentials</td>
+                <td>Each attempt shows error message; no account lockout (unless implemented)</td>
+            </tr>
+        </table>
+
+        <h3>Test Data Requirements</h3>
+        <div class="section-box">
+            <ul>
+                <li><strong>Valid Test Account:</strong> Email and password combo for successful login verification</li>
+                <li><strong>Invalid Email Formats:</strong>
+                    <ul>
+                        <li>no-at-symbol.com</li>
+                        <li>user@nodomain</li>
+                        <li>user@domain.c</li>
+                        <li>user@@domain.com</li>
+                        <li>@domain.com</li>
+                        <li>user@</li>
+                    </ul>
+                </li>
+                <li><strong>Boundary Email Values:</strong>
+                    <ul>
+                        <li>Email with 399 characters (valid)</li>
+                        <li>Email with 400 characters (boundary)</li>
+                        <li>Email with 401 characters (invalid)</li>
+                    </ul>
+                </li>
+                <li><strong>Boundary Password Values:</strong>
+                    <ul>
+                        <li>Password with 99 characters (valid)</li>
+                        <li>Password with 100 characters (boundary)</li>
+                        <li>Password with 101 characters (invalid)</li>
+                    </ul>
+                </li>
+                <li><strong>Special Characters:</strong> Passwords with mixed case, numbers, symbols within limits</li>
+            </ul>
+        </div>
+
+        <h3>Environment & Configuration Requirements</h3>
+        <ul>
+            <li>Creatio CRM application deployed and accessible</li>
+            <li>Test/staging environment preferred (non-production)</li>
+            <li>Valid test user credentials for successful login scenarios</li>
+            <li>Web browsers: Chrome, Firefox, Safari, Edge (latest versions)</li>
+            <li>Browser developer tools for inspecting HTML, CSS, and network traffic</li>
+            <li>Test data (invalid email formats, boundary values) prepared</li>
+        </ul>
+
+        <h3>Entry & Exit Criteria</h3>
+        <div class="section-box">
+            <strong>Entry Criteria:</strong>
+            <ul>
+                <li>Jira story CRM-5 assigned to development team and accepted</li>
+                <li>Login form component code is available and review-ready</li>
+                <li>Test environment is deployed and accessible</li>
+                <li>Test data and test cases are prepared</li>
+                <li>Development team has completed implementation</li>
+            </ul>
+            <strong style="display: block; margin-top: 15px;">Exit Criteria:</strong>
+            <ul>
+                <li>All positive test scenarios pass</li>
+                <li>All negative test scenarios pass</li>
+                <li>All edge cases pass</li>
+                <li>All acceptance criteria validated and working</li>
+                <li>No blocking defects open</li>
+                <li>Code review completed and approved</li>
+                <li>Browser compatibility verified across major browsers</li>
+                <li>Security review passed (no sensitive data leaks)</li>
+                <li>QA sign-off received</li>
+            </ul>
+        </div>
+
+        <h3>QA Effort Estimate</h3>
+        <div class="effort-estimate">
+            <strong style="color: #003d82;">Estimated QA Execution Time: 6-8 hours</strong>
+            <ul style="margin-top: 10px;">
+                <li><strong>Test Case Design & Preparation:</strong> 1-2 hours</li>
+                <li><strong>Manual Testing Execution:</strong> 3-4 hours (all scenarios and browsers)</li>
+                <li><strong>Defect Logging & Triage:</strong> 1 hour</li>
+                <li><strong>Regression Testing (if fixes needed):</strong> 1-2 hours</li>
+                <li><strong>Sign-off & Documentation:</strong> 1 hour</li>
+            </ul>
+        </div>
+
+        <h3>Dependencies & Blockers</h3>
+        <ul>
+            <li><strong>Development Completion:</strong> Story must be code-complete before QA testing begins</li>
+            <li><strong>Test Environment Access:</strong> QA must have access to test/staging environment</li>
+            <li><strong>Test Data:</strong> Valid test account credentials must be provided</li>
+            <li><strong>Backend Validation:</strong> Backend service must enforce same validation rules as frontend</li>
+            <li><strong>Error Message Consistency:</strong> Exact error message text must be confirmed before testing</li>
+        </ul>
+
+        <h3>Prerequisites & Setup</h3>
+        <ul>
+            <li>Access to Creatio CRM login page in test environment</li>
+            <li>Valid test account with known credentials</li>
+            <li>Prepared test data sets (invalid emails, boundary values)</li>
+            <li>Browser developer tools installed and accessible</li>
+            <li>Test execution template/checklist ready</li>
+            <li>Defect tracking system (Jira) accessible for bug reporting</li>
+        </ul>
+
+        <h3>Release Readiness Summary</h3>
+        <div class="section-box" style="background: #e3f2fd; border-left: 3px solid #0066cc;">
+            <p>The story is <strong>production-ready for release</strong> when:</p>
+            <ul>
+                <li>✅ All four acceptance criteria are demonstrated working in test environment</li>
+                <li>✅ Error messages display exactly as specified in AC</li>
+                <li>✅ Form fields highlight in red on validation errors</li>
+                <li>✅ Valid credentials successfully log user in</li>
+                <li>✅ Invalid credentials show "Invalid email or password" message</li>
+                <li>✅ No console errors or security warnings</li>
+                <li>✅ Cross-browser testing passed</li>
+                <li>✅ Accessibility audit passed (WCAG 2.1 Level AA minimum)</li>
+                <li>✅ Performance acceptable (form validation < 200ms)</li>
+                <li>✅ QA lead has signed off on test results</li>
+            </ul>
+        </div>
+
+        <h3>Sign-Off Recommendation</h3>
+        <p><strong>Ready for Sign-Off When:</strong></p>
+        <ul>
+            <li>All test cases executed and logged with results</li>
+            <li>All defects either fixed and re-tested, or acknowledged as backlog items</li>
+            <li>Acceptance criteria demonstration completed successfully</li>
+            <li>Product Owner/Business Analyst confirms all requirements met</li>
+            <li>QA Manager approves test results and coverage</li>
+        </ul>
+
+        <div class="report-generated">
+            <p>QA Analysis Report Generated: 2026-11-13</p>
+            <p>Story: CRM-5 | Report Version: 1.0</p>
+        </div>
+    </div>
+</body>
+</html>

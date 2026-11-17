@@ -1,0 +1,23 @@
+Key,Name,Status,Precondition,Objective,Folder,Priority,Component,Labels,Owner,Estimated Time,Coverage (Issues),Coverage (Pages),Test Script (Step-by-Step) - Step,Test Script (Step-by-Step) - Test Data,Test Script (Step-by-Step) - Expected Result,Test Script (Plain Text),Test Script (BDD)
+CRM-T1,Verify the cookie consent pop-up is displayed successfully,Draft,,,,Normal,,,712020:64a328f9-e66e-45c8-9e87-0c0423f846ff,,,,Launch the Chrome browser,,Chrome browser should be launched successfully. ,,
+,,,,,,,,,,,,,Enter URL <https://accounts.creatio.com/login/alm>,,Creatio CRM application should be launched successfully. ,,
+,,,,,,,,,,,,,Verify the cookies consent pop-up is launched. ,,Cookies consent pop-up should be displayed successfully. ,,
+CRM-T2,Verify cookies consent pop-up header,Draft,,,,Normal,,,712020:64a328f9-e66e-45c8-9e87-0c0423f846ff,,,,Launch the Chrome browser,,Chrome browser should be launched successfully. ,,
+,,,,,,,,,,,,,Enter URL <https://accounts.creatio.com/login/alm>,,Creatio CRM application should be launched successfully. ,,
+,,,,,,,,,,,,,Verify the cookies consent pop-up is launched. ,,Cookies consent pop-up should be displayed successfully. ,,
+,,,,,,,,,,,,,Verify cookies consent pop-up header,,"Cookies consent pop-up should display with the header 'This website uses 
+cookies'",,
+CRM-T3,Verify cookies consent pop-up content message,Draft,,,,Normal,,,712020:64a328f9-e66e-45c8-9e87-0c0423f846ff,,,,Launch the Chrome browser,,Chrome browser should be launched successfully. ,,
+,,,,,,,,,,,,,Enter URL <https://accounts.creatio.com/login/alm>,,Creatio CRM application should be launched successfully. ,,
+,,,,,,,,,,,,,Verify the cookies consent pop-up is launched. ,,Cookies consent pop-up should be displayed successfully. ,,
+,,,,,,,,,,,,,Verify cookies consent pop-up content message,,"Cookies consent pop-up content message should be displayed as below
+
+We may use cookies and similar technologies to collect information about 
+the ways you interact with and use the website, to support and enhance 
+features and functionality, to monitor performance, to personalize content 
+and experiences, for marketing and analytics, and for other lawful 
+purposes. We also may share information about your use of our site with our 
+social media, advertising and analytics partners who may combine it with 
+other information that you’ve provided to them or that they’ve collected 
+from your use of their services. Please, see more details on the ""About"" 
+tab ",,
