@@ -13,6 +13,6 @@
     "loginEmail":"input[name='email']",
     "continueButton":"button[type='submit']",
     "loginPassword":"input#login-password",
-    "loginSuccessMessage":"//a[text()='Contact Creatio Support']"
-
+    "loginSuccessMessage":"//a[text()='Contact Creatio Support']",
+    "emailFormatErrorMessage": "//div[contains(text(),'Invalid email format')]"
 }

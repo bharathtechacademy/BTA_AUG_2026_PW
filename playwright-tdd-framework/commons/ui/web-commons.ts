@@ -153,5 +153,16 @@ export class WebCommons {
         await expect(value1).toContain(value2);
     }
 
+    //Common method to get the input value from a text box
+    async getInputValue(locator: string): Promise<string> {
+        const textbox = await this.element(locator);
+        return await textbox.inputValue();
+    }
+
+    //Common method to verify whether an element is not displayed
+    async isElementNotDisplayed(locator: string) {
+        const element = await this.element(locator);
+        await expect(element).not.toBeVisible();
+    }
 
 }

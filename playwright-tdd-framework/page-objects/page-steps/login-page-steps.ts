@@ -71,4 +71,33 @@ export class LoginPageSteps {
         await this.web.isElementDisplayed(loginPageElements.loginSuccessMessage);
     }
 
+    //Verify Business Email and Password fields are empty
+    async verifyEmailAndPasswordFieldsAreEmpty() {
+        const emailValue = await this.web.getInputValue(loginPageElements.businessEmailTextBox);
+        await this.web.compareValues(emailValue, "");
+        const passwordValue = await this.web.getInputValue(loginPageElements.passwordTextBox);
+        await this.web.compareValues(passwordValue, "");
+    }
+
+    //Method to enter business email
+    async enterBusinessEmail(email: string) {
+        await this.web.enterText(loginPageElements.businessEmailTextBox, email);
+    }
+
+    //Method to verify business email value length
+    async verifyBusinessEmailValueLength(expectedLength: number) {
+        const emailValue = await this.web.getInputValue(loginPageElements.businessEmailTextBox);
+        await this.web.compareValues(emailValue.length, expectedLength);
+    }
+
+    //Method to click into password field
+    async clickPasswordField() {
+        await this.web.click(loginPageElements.passwordTextBox);
+    }
+
+    //Method to verify email format error message is not displayed
+    async verifyEmailFormatErrorMessageIsNotDisplayed() {
+        await this.web.isElementNotDisplayed(loginPageElements.emailFormatErrorMessage);
+    }
+
 }

@@ -1,0 +1,34 @@
+- generic [active]:
+  - region "This website uses cookies" [ref=f1e1]:
+    - generic [ref=f1e2]:
+      - generic [ref=f1e4]:
+        - img "logo" [ref=f1e6]
+        - link "Cookiebot by Usercentrics - opens in a new window" [ref=f1e7] [cursor=pointer]:
+          - /url: https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tabpanel "Consent" [ref=f1e35]:
+        - generic [ref=f1e37]:
+          - heading "This website uses cookies" [level=2] [ref=f1e38]
+          - paragraph [ref=f1e40]: We may use cookies and similar technologies to collect information about the ways you interact with and use the website, to support and enhance features and functionality, to monitor performance, to personalize content and experiences, for marketing and analytics, and for other lawful purposes. We also may share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Please, see more details on the "About" tab
+        - generic [ref=f1e41]:
+          - group "Consent Selection" [ref=f1e47]:
+            - generic [ref=f1e49]:
+              - generic [ref=f1e50]:
+                - strong [ref=f1e52]: Necessary
+                - generic [ref=f1e53]:
+                  - checkbox "Necessary" [checked] [disabled]
+              - generic [ref=f1e54]:
+                - strong [ref=f1e56] [cursor=pointer]: Preferences
+                - switch "Preferences" [ref=f1e58] [cursor=pointer]
+              - generic [ref=f1e59]:
+                - strong [ref=f1e61] [cursor=pointer]: Statistics
+                - switch "Statistics" [ref=f1e63] [cursor=pointer]
+              - generic [ref=f1e64]:
+                - strong [ref=f1e66] [cursor=pointer]: Marketing
+                - switch "Marketing" [ref=f1e68] [cursor=pointer]
+          - link "Show details" [ref=f1e70] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f1e74]:
+        - button "Allow all" [ref=f1e75] [cursor=pointer]
+        - button "Allow selection" [ref=f1e76] [cursor=pointer]
+        - button "Deny" [ref=f1e77] [cursor=pointer]
+  - iframe [aria-hidden] [ref=f1e78]

@@ -137,5 +137,20 @@ test.describe('UI Tests', () => {
         await loginPage.verifySocialMediaLoginOptionsAreAvailable();
     });
 
+    //Test Case 13: CRM-T5: Verify successful validation acceptance of boundary maximum valid email length (400 characters)
+    test('CRM-T5: Verify successful validation acceptance of boundary maximum valid email length (400 characters)', async () => {
+        const testdata = data["CRM-T5: Verify successful validation acceptance of boundary maximum valid email length (400 characters)"];
+        await loginPage.launchApplication();
+        await cookiesPage.verifyCookiesPopupIsDisplayed();
+        await cookiesPage.verifyCookiesPopupSelectionButtons();
+        await cookiesPage.clickOnSelectionButton(testdata.button);
+        await cookiesPage.verifyCookiesPopupIsClosed();
+        await loginPage.verifyLoginPageIsDisplayed();
+        await loginPage.verifyEmailAndPasswordFieldsAreEmpty();
+        await loginPage.enterBusinessEmail(testdata.email);
+        await loginPage.verifyBusinessEmailValueLength(testdata.expectedLength);
+        await loginPage.clickPasswordField();
+        await loginPage.verifyEmailFormatErrorMessageIsNotDisplayed();
+    });
 
 });
